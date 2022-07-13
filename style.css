@@ -1,14 +1,33 @@
 body {
-  background-color: #444444;
-  color: #dddddd;
+  background-color: white;
+  color: black;
   font-family: Arian, Helvetica, sans-serif;
   margin: 10% 20%;
 }
 
-.exp-header{
+.exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   background-color: rgba(0,0,0 0.1)
+}
+
+h6 {
+  font-style: italic;
+  text-align: left; 
+}
+
+p.1 {
+  font-style: italic;
+  border-top: 1px solid #dddddd;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li.b {
+  list-style-type: square;
+  list-style-position: inside;
 }
